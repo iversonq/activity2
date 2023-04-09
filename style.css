@@ -22,3 +22,65 @@ text-shadow: 1px 1px 1px black;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
+#blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+#blog h2{
+margin-bottom: 20px;
+text-align: center;
+width: 200%;
+font-size: 300;
+}
+#blog div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: calc(20% - 15px);
+    box-sizing: border-box;
+    width: calc(40% - 20px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    background-color: whitesmoke;
+
+}
+#blog div:nth-of-type(3){
+background-color: black;
+color: white;
+}
+#blog div div{
+    flex: 1;
+    padding: 20px;
+}
+#blog div img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#blog div p{
+    margin-bottom: 10px;
+    font-size: small;
+    text-align: center;
+}
+#blog div a{
+    text-align: left;
+    padding: 5px 10px;
+    color: lightgrey;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: small;
+
+}
+
+#blog div a:hover{
+    color:blue;
+}
