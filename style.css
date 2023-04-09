@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+#mywebsite{
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+#landing{
+    padding: 200px;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../Pics/landing-img.jpg);
+}
+#landing h1{
+font-size: x-large;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+#landing p{
+    font-size: small;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
